@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bloodHeroes">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Usafe API</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/javascripts/vendor/bootstrap-css/css/bootstrap.css">
+
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/stylesheets/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/stylesheets/jumbotron.css" rel="stylesheet">
+
+    <script type="text/javascript" src="/javascripts/vendor/angular/angular.js"></script>
+    <script type="text/javascript" src="/javascripts/vendor/angular-route/angular-route.js"></script>
+    
+    <script type="text/javascript" src="/javascripts/home/home.module.js"></script>
+    <script type="text/javascript" src="/javascripts/home/home.service.js"></script>
+    <script type="text/javascript" src="/javascripts/home/home.controller.js"></script>
+    <script type="text/javascript" src="/javascripts/home/home.route.js"></script>
+    
+
+    <script type="text/javascript" src="/javascripts/app.js"></script>
+
+  </head>
+
+  <body>
+
+    <div id="main">
+
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Usafe API</a>
+          </div>
+          <!-- <div id="navbar" class="navbar-collapse collapse">
+            <form class="navbar-form navbar-right">
+              <div class="form-group">
+                <input type="text" placeholder="Email" class="form-control">
+              </div>
+              <div class="form-group">
+                <input type="password" placeholder="Password" class="form-control">
+              </div>
+              <button type="submit" class="btn btn-success">Sign in</button>
+            </form>
+          </div><!--/.navbar-collapse --> 
+        </div>
+      </nav>
+
+      <div ng-view></div>   
+
+
+    </div>
+
+
+  </body>
+</html>

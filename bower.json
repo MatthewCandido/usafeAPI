@@ -1,0 +1,22 @@
+{
+  "name": "bsafeAPI",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/javascripts/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.8",
+    "bootstrap-css": "^3.3.6",
+    "bootstrap-javascript": "^3.0.2",
+    "angular-route": "^1.5.8",
+    "angular2-build": "^2.0.0-alpha.34"
+  }
+}
