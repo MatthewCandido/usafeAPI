@@ -23,8 +23,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes);
-app.use('/api', api);
+// app.use('/', routes);
+// app.use('/api', api);
+
+//logger.info('[SERVER] Initializing routes');
+require('./routes/index')(app);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

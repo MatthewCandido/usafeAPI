@@ -1,1 +1,1 @@
-angular.module('bloodHeroes', ['bloodHeroes.home']);
+angular.module('usafe', ['usafe.home']);

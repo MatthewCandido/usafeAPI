@@ -1,1 +1,1 @@
-angular.module('bloodHeroes.home', ['ngRoute']);
+angular.module('usafe.home', ['ngRoute']);

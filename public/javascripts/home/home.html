@@ -1,4 +1,73 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
-  
+	<p>
+		This documentation is describing the API for usafe APP.
+	</p>
+
+	<p style="color: blue;">
+		<b>Base URL:</b> http://www.usafe.kinghost.net
+	</p>
+	
+	<br>
+
+	<h2>
+		<b>/user/signUp</b>
+	</h2>
+
+	<pre style="width: 100%; text-align: center;"> 
+			
+		{"email" : "teste2@teste.com.br", "password" : "teste2", "access_type" : 0, "nickname" : "nickname teste 2016 2", "gender" : 1, "outside_origin" : 0}
+
+	</pre>
+
+	<br>
+
+	<p> 
+		Returns a JSON with the following format:
+	</p>
+	
+	<pre style="width: 100%; text-align: center;"> 
+			
+		{"message" : "success"}
+
+	</pre>
+
+	<br>
+
+	<pre style="width: 100%; text-align: center;"> 
+			
+		{"message" : "failed"}
+
+	</pre>
+
+	<h2>
+		<b>/user/signIn</b>
+	</h2>
+
+	<pre style="width: 100%; text-align: center;"> 
+			
+		{"email" : "teste2@teste.com.br", "password" : "teste2"}
+
+	</pre>
+
+	<br>
+
+	<p> 
+		Returns a JSON with the following format:
+	</p>
+	
+	<pre style="width: 100%; text-align: center;"> 
+			
+		{"message" : "success"}
+
+	</pre>
+	
+	<br>
+
+	<pre style="width: 100%; text-align: center;"> 
+			
+		{"message" : "failed"}
+
+	</pre>
+
 </div> <!-- /container -->

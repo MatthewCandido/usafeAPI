@@ -1,7 +1,7 @@
 (function() {
 	'use strict';
 
-	angular.module('bloodHeroes.home')
+	angular.module('usafe.home')
 
 	.config(function($routeProvider) {
 		
